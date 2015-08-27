@@ -1,9 +1,9 @@
 ---
 layout: page
-title: About
+title: About Me
 permalink: /about/
 ---
 
-I am an iOS developer. I fell in love with Swift. 
+I am an iOS developer. I really like Swift. 
 
-Check out my profile on [StackOverflow](http://stackoverflow.com/users/427083/mundi).
+You can check out my profile on [StackOverflow](http://stackoverflow.com/users/427083/mundi).
