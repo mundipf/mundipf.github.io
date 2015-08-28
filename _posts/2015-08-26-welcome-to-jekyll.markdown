@@ -12,8 +12,8 @@ To add new posts, simply add a file in the `_posts` directory that follows the c
 Jekyll offers powerful support for code snippets. The following is `Swift` code.
 
 {% highlight swift %}
-if NSFileManager.defaultManager().fileExistsAtURL(url) {
-	return true
+for _ in 1..<1000000 {
+	print("Thanks.")
 }
 {% endhighlight %}
 

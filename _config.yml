@@ -10,7 +10,7 @@ twitter_username: mundstein
 github_username:  # mundipf
 stackoverflow_username: mundi
 stackoverflow_userid: 427083
-
+include: ['_pages']
 
 # Build settings
 markdown: kramdown
