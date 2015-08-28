@@ -6,10 +6,14 @@ description: > # this means to ignore newlines until "baseurl:"
   concerning iOS and Swift.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://yourdomain.com" # the base hostname & protocol for your site
+
+# Social sharing links for footer
 twitter_username: mundstein
 github_username:  # mundipf
 stackoverflow_username: mundi
 stackoverflow_userid: 427083
+
+# Include directory
 include: ['_pages']
 
 # Build settings
