@@ -45,8 +45,60 @@
           {% if site.stackoverflow_username %}
           <li>
             <a href="http://stackoverflow.com/users/{{ site.stackoverflow_userid }}">
-              <span class="icon fa-stack-overflow">
-                <img src="/so-icon.png" width="16px" height="16px">
+              <span class="icon icon-stackoverflow">
+                <!-- <img src="/so-icon.png" width="16px" height="16px"> -->
+                <svg viewBox="0 0 200 200">     
+<image width="200" height="200" xlink:href="data:image/png;base64, 
+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
+NsABP3VUUcO77sC3FPpwStnoORntAGkqD3y5TGIyxdxr8YHfPZo4QhU11Dkf5ISStvKC+HoxjiJc
+uLhJ8Ee3cJSZ7k/tE+L5N45iIs9y4ChyfNmMohgXxY4LAPY0URDpPCVj5XXiuwMXxUyOYiU5nHfc
+D3RuJPZvacXk+XniuOupZwv4huKiGBd3R921KnlVx2TmrTYN8rzgKpXvZoqYTDFjcbr57j73gc6N
+VaZKlsbxgukUmXnhuC+xk53g60shLoqYYPPldjOHujdyLElReUHcn7OHPeDLZTzFuJgcdpBzxB3l
+o9/iQYrLC+K+Qi214MthLEUUUchAAKJ6clm8SJC88pH8mkb8NOLHTwP+wOtG/F5/9OO4WzjKUdb6
+shiFi2Icnx0VTxI184bwPbumcmjoENuIn4Yu234a+Qw/jd6QYzl3Gx/yIZuSqS5x8vIjthZEXCEG
+oPxKQGb7vA3O2oQ+OyqcRMlzlONILrmm26gaE/vgrXASdVltvvgQFjSKDyFCesvrxq+aeCDlCSDl
+CZAoeVk0xWHUJMtL0G9br4JS3ot88ikgn37kB/4t6HgV3O4OSf6FkcDTM+91LnHJKau8XxeZBRTQ
+dbt/4HXwm5DPkiMtSMqd23obnedT+Q0BnQ3RjBg/Uk5eNHibaeZisqtIi9vkU5cEzbxVcfpyQXTF
+Wgw58wSQ8gSQ8gSQ8gSQ8gSQ8gSQ8gSQ8gRI0EFycg9m44WceQJIeQJIeQJIeQJIeQJIeQJIeQLE
+6TgvXoufqYWceQJIeQJIeQJIeQJIeQJIeQJIeQJIeQLE7a7HnoCceQJIeQJIeQJIeQJIeQJIeQJI
+eQJIeQJIeQJIeQJIeQJIeQJIeQJIeQJIeQJIeQJIeQJIeQJIeQJIeQJIeQJIeQJIeQJIeQJIeQL8
+H/roiwlKIGAOAAAAJXRFWHRkYXRlOmNyZWF0ZQAyMDE1LTA4LTI4VDAwOjM2OjExKzAyOjAwy1Zv
+5QAAACV0RVh0ZGF0ZTptb2RpZnkAMjAxNS0wOC0yOFQwMDozNjoxMSswMjowMLoL11kAAAAZdEVY
+dFNvZnR3YXJlAEFkb2JlIEltYWdlUmVhZHlxyWU8AAAAAElFTkSuQmCC
+"/> 
+</svg>  
+
               </span>
               <span class="username">{{ site.stackoverflow_username }}</span>
             </a>
