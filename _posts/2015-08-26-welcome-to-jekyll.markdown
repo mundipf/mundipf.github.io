@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Jekyll Goodies"
 date:   2015-08-26 00:48:03
 categories: jekyll update
@@ -12,9 +11,8 @@ To add new posts, simply add a file in the `_posts` directory that follows the c
 Jekyll offers powerful support for code snippets. The following is `Swift` code.
 
 {% highlight swift %}
-for _ in 1..<1000000 {
-	print("Thanks.")
-}
+// sort descending
+let sorted = integers.sort(>)
 {% endhighlight %}
 
 Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll’s dedicated Help repository][jekyll-help].
